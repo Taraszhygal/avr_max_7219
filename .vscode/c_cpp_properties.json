@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\tools\\avr_gcc\\avr\\include"
+            ],
+            "defines": [
+                //"__AVR_ATtiny10__"
+                "__AVR_ATmega328P__",
+                "F_CPU=8000000"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x86",
+            "compilerPath": "\"C:\\tools\\avr_gcc\\bin\\avr-gcc.exe\""
+        }
+    ],
+    "version": 4
+}
