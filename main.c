@@ -39,7 +39,7 @@ for (size_t i = 0; i < 6; i++)
       }
     }
 }
-    // 10 ms thread ---------
+    // 10 ms thread --------
     _delay_ms(10);
   }
   return 0;
